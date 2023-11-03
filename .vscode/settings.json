@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true, // 保存時にフォーマットする
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 保存時にprettierでフォーマットする
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true, // 保存時にeslintのfixを実行する
+    "source.addMissingImports": "always"
+  },
+  "eslint.validate": ["html", "javascriptreact", "typescriptreact"] // eslintのfix対象ファイルを指定
+}
